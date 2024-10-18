@@ -135,6 +135,20 @@ header .menu .icon {
 #thehome .imgbox {
   width: 520px;
 }
+@media (max-width: 992px) {
+  #thehome .textbox h1 {
+    width: auto;
+  }
+  #thehome .textbox h5 {
+    margin: 20px 0px 35px 0px;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 40px;
+  }
+  #thehome .imgbox {
+    width: auto;
+  }
+}
 
 #works h1 {
   color: #36b3bd;
