@@ -172,6 +172,17 @@ header .menu .icon {
   color: #676f8b;
   line-height: 1.3;
 }
+@media (max-width: 1200px) {
+  #works .box {
+    text-align: center;
+  }
+  #works .box .imgbox {
+    width: auto;
+  }
+  #works .box .textbox {
+    padding: 25px 40px;
+  }
+}
 
 #browse .textbox {
   text-align: center;
