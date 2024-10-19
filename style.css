@@ -135,7 +135,7 @@ header .menu .icon {
 #thehome .imgbox {
   width: 520px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1065px) {
   #thehome .textbox h1 {
     width: auto;
   }
@@ -256,6 +256,49 @@ header .menu .icon {
 #browse .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media (max-width: 992px) {
+  #browse .box {
+    padding: 15px;
+  }
+  #browse .box .imgbox {
+    width: auto;
+  }
+  #browse .box .textbox h2 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  #browse .box .textbox h5 {
+    line-height: 1.2;
+  }
+  #browse .box .textbox .add .btn {
+    padding: 8px 10px;
+    margin: 0 10px;
+  }
+  #browse .box .textbox .add .btn h3 {
+    line-height: 1.2;
+  }
+}
+@media (max-width: 540px) {
+  #browse .textbox h4 {
+    margin: 15px 0;
+    line-height: 1.1;
+  }
+  #browse .btn {
+    padding: 10px 35px;
+  }
+}
+@media (max-width: 410px) {
+  #browse .textbox {
+    width: auto;
+  }
+  #browse .textbox h4 {
+    margin: 10px 0;
+  }
+  #browse .btn {
+    padding: 8px 25px;
+    margin: 0 10px;
+  }
 }
 
 #order .imgbox {
